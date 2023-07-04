@@ -1,0 +1,14 @@
+"""
+Example Python File
+"""
+
+def greeting(name):
+    """
+    Function to print a greeting message
+    """
+    print(f"Hello, {name}!")
+
+if __name__ == "__main__":
+    # Test the greeting function
+    name = input("Enter your name: ")
+    greeting(name)
